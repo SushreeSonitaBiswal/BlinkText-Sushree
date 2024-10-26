@@ -1,0 +1,58 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:3000/index.html
+Subject: Blinking Text Example
+Date: Sat, 26 Oct 2024 09:20:51 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Hi2V0ma4KJ8qTBI8ddpfQ1g8Zlf6xlgyiuisTHfYIg----"
+
+
+------MultipartBoundary--Hi2V0ma4KJ8qTBI8ddpfQ1g8Zlf6xlgyiuisTHfYIg----
+Content-Type: text/html
+Content-ID: <frame-B7F07C5CF164C02AB5D40E8B85920163@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:3000/index.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Blinking Text Example</title>
+    <link rel=3D"stylesheet" href=3D"http://127.0.0.1:3000/styles.css">
+</head>
+<body>
+    <div class=3D"container">
+        <p class=3D"blinking-text" style=3D"opacity: 1;">Hii Everyone!!</p>
+        <p class=3D"blinking-text">I'm the great Sushree **</p>
+    </div>
+
+   =20
+
+
+</body></html>
+------MultipartBoundary--Hi2V0ma4KJ8qTBI8ddpfQ1g8Zlf6xlgyiuisTHfYIg----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:3000/styles.css
+
+@charset "utf-8";
+
+body { display: flex; justify-content: center; align-items: center; height:=
+ 100vh; margin: 0px; background-color: rgb(137, 137, 174); font-family: Ari=
+al, sans-serif; }
+
+.container { text-align: center; padding: 20px; border-radius: 10px; backgr=
+ound-color: rgba(255, 255, 255, 0.8); box-shadow: rgba(0, 0, 0, 0.2) 0px 4p=
+x 20px; }
+
+.blinking-text { font-size: 36px; font-weight: bold; color: rgb(255, 51, 99=
+); text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px; animation: 1s ease 0s infin=
+ite normal none running blink; }
+
+@keyframes blink {=20
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0; transform: scale(1.1); }
+}
+------MultipartBoundary--Hi2V0ma4KJ8qTBI8ddpfQ1g8Zlf6xlgyiuisTHfYIg------
